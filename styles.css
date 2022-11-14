@@ -5,13 +5,31 @@ svg {
     transform: translate(-50%, -50%);
 }
 
-path {
-    stroke: #BBB;
-    fill: none;
-    stroke-width: 8;
-    stroke-linecap: round;
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 10s linear forwards;
+    animation-iteration-count: infinite;
+    fill: url(#LinearGradient);
+    fill-rule: evenodd;
+    opacity: 1;
+    stroke: #d814f3;
+    stroke-width: 1.25;
 }
 
-.infinity {
-    stroke: #000;
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
 }
+
+/*path {*/
+/*    stroke: #BBB;*/
+/*    fill: none;*/
+/*    !*stroke-width: 8;*!*/
+/*    stroke-linecap: round;*/
+/*}*/
+
+/*.infinity {*/
+/*    stroke: #000;*/
+/*}*/
