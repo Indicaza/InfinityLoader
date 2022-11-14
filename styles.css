@@ -6,12 +6,12 @@ svg {
 }
 
 .path {
-    stroke-dasharray: 1000;
+    stroke-dasharray: 200;
     stroke-dashoffset: 1000;
     animation: dash 8s linear forwards;
     animation-iteration-count: infinite;
     /*fill: url(#LinearGradient);*/
-    fill-rule: evenodd;
+    /*fill-rule: evenodd;*/
     opacity: 1;
     stroke: url(#LinearGradient);
     stroke-width: 3.5;
