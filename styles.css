@@ -1,0 +1,17 @@
+svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+path {
+    stroke: #BBB;
+    fill: none;
+    stroke-width: 8;
+    stroke-linecap: round;
+}
+
+.infinity {
+    stroke: #000;
+}
