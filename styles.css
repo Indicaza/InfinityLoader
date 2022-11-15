@@ -11,15 +11,17 @@ svg {
 }
 
 .path {
-    stroke-dasharray: 200;
-    stroke-dashoffset: 800;
-    animation: dash 8s linear forwards;
+    stroke-dasharray: 50;
+    stroke-dashoffset: 1000;
+    /*animation: dash 8s linear forwards;*/
+    animation: dash 8s ease-in-out;
     animation-iteration-count: infinite;
     /*fill: url(#LinearGradient);*/
     /*fill-rule: evenodd;*/
     opacity: 1;
-    stroke: #5421c9;
-    stroke-width: 2.5;
+    /*stroke: #5421c9;*/
+    stroke: url(#LinearGradient);
+    stroke-width: 4;
     /*stroke: url(#RadialGradient);*/
     transition-timing-function: ease-in-out;
 }
