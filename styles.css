@@ -5,17 +5,30 @@ svg {
     transform: translate(-50%, -50%);
 }
 
+.background {
+    /*fill: url(#LinearGradient);*/
+    fill: #195ffb;
+}
+
 .path {
     stroke-dasharray: 200;
-    stroke-dashoffset: 1000;
+    stroke-dashoffset: 800;
     animation: dash 8s linear forwards;
     animation-iteration-count: infinite;
     /*fill: url(#LinearGradient);*/
     /*fill-rule: evenodd;*/
     opacity: 1;
-    stroke: url(#LinearGradient);
-    stroke-width: 3.5;
+    stroke: #5421c9;
+    stroke-width: 2.5;
+    /*stroke: url(#RadialGradient);*/
+    transition-timing-function: ease-in-out;
 }
+
+/*path.start {*/
+/*    animation:*/
+/*            x 2s linear infinite alternate,*/
+/*            y 2s infinite cubic-bezier(0,500,1,500);*/
+/*}*/
 
 @keyframes dash {
     to {
@@ -33,3 +46,35 @@ svg {
 /*.infinity {*/
 /*    stroke: #000;*/
 /*}*/
+
+
+/*.css-selector {*/
+/*    background: linear-gradient(0deg, #195ffb, #5421c9, #d814f3);*/
+/*    background-size: 600% 600%;*/
+/*    -webkit-animation: AnimationName 0s ease infinite;*/
+/*    -moz-animation: AnimationName 0s ease infinite;*/
+/*    -o-animation: AnimationName 0s ease infinite;*/
+/*    animation: AnimationName 0s ease infinite;*/
+/*}*/
+/*@-webkit-keyframes AnimationName {*/
+/*    0%{background-position:0% 50%}*/
+/*    50%{background-position:100% 50%}*/
+/*    100%{background-position:0% 50%}*/
+/*}*/
+/*@-moz-keyframes AnimationName {*/
+/*    0%{background-position:0% 50%}*/
+/*    50%{background-position:100% 50%}*/
+/*    100%{background-position:0% 50%}*/
+/*}*/
+/*@-o-keyframes AnimationName {*/
+/*    0%{background-position:0% 50%}*/
+/*    50%{background-position:100% 50%}*/
+/*    100%{background-position:0% 50%}*/
+/*}*/
+/*@keyframes AnimationName {*/
+/*    0%{background-position:0% 50%}*/
+/*    50%{background-position:100% 50%}*/
+/*    100%{background-position:0% 50%}*/
+/*}*/
+
+

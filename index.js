@@ -17,6 +17,6 @@
 //     });
 // }
 // load();
-
-var path = document.querySelector('.path');
-var length = path.getTotalLength();
+// //
+// // var path = document.querySelector('.path');
+// // var length = path.getTotalLength();
