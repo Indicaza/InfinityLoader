@@ -21,7 +21,7 @@ svg {
     opacity: 1;
     /*stroke: #5421c9;*/
     stroke: url(#LinearGradient);
-    stroke-width: 4;
+    stroke-width: 3.5;
     /*stroke: url(#RadialGradient);*/
     transition-timing-function: ease-in-out;
 }
