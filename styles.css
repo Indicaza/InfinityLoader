@@ -17,8 +17,8 @@ svg {
     animation-iteration-count: infinite;
     opacity: 1;
     stroke: url(#LinearGradient);
-    stroke-width: 3.33;
-    filter: drop-shadow(.1px .1px .1px #5421c9);
+    stroke-width: 2.5;
+    /*filter: drop-shadow(.1px .1px .1px #5421c9);*/
 }
 
 .uh {
