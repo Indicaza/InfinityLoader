@@ -31,7 +31,7 @@ svg {
     stroke: url(#LinearGradient);
     /*stroke: #5421C9;*/
     /*stroke: green;*/
-    stroke-width: 2.75;
+    stroke-width: 2.5;
     /*filter: drop-shadow(.1px .1px .1px #5421c9);*/
 }
 
@@ -45,7 +45,7 @@ svg {
     /*stroke: #5421C9;*/
 
     /*stroke: red;*/
-    stroke-width: 3;
+    stroke-width: 2.5;
 }
 
 .fauxGradient2 {
