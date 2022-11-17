@@ -1,3 +1,11 @@
+/*body {*/
+/*    background: #000;*/
+/*    color: #000;*/
+/*    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+/*    font-size: 14px;*/
+/*    line-height: 1.42857143;*/
+/*    margin: 0;*/
+/*}*/
 svg {
     position: absolute;
     top: 50%;
@@ -7,19 +15,51 @@ svg {
 
 .background {
     fill: #195ffb;
-    /*filter: drop-shadow(1px 1px .25px #7B7A72);*/
+    /*stroke: #195ffb;*/
+    /*stroke-width: 2.5;*/
+    filter: drop-shadow(1px 1px .25px #7B7A72);
 }
 
+/* stroke length = 155 */
+
 .path {
-    stroke-dasharray: 50;
-    stroke-dashoffset: 1000;
-    animation: dash 8s ease-in-out;
+    stroke-dasharray: 78;
+    stroke-dashoffset: 310;
+    animation: dash 2s ease-in-out forwards;
     animation-iteration-count: infinite;
-    opacity: 1;
+    opacity: .75;
     stroke: url(#LinearGradient);
-    stroke-width: 2.5;
+    /*stroke: #5421C9;*/
+    /*stroke: green;*/
+    stroke-width: 2.75;
     /*filter: drop-shadow(.1px .1px .1px #5421c9);*/
 }
+
+.fauxGradient1 {
+    stroke-dasharray: 78;
+    stroke-dashoffset: 330;
+    animation: dash 2s ease-in-out forwards;
+    animation-iteration-count: infinite;
+    opacity: .3;
+    stroke: url(#LinearGradient);
+    /*stroke: #5421C9;*/
+
+    /*stroke: red;*/
+    stroke-width: 3;
+}
+
+.fauxGradient2 {
+    stroke-dasharray: 78;
+    stroke-dashoffset: 320;
+    animation: dash 2s ease-in-out forwards;
+    animation-iteration-count: infinite;
+    opacity: .5;
+    stroke: url(#LinearGradient);
+    /*stroke: #5421C9;*/
+    /*stroke: yellow;*/
+    stroke-width: 2.5;
+}
+
 
 .uh {
     /*filter: drop-shadow(1px 1px .25px #7B7A72);*/
