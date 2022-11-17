@@ -62,7 +62,7 @@ svg {
 
 
 .uh {
-    /*filter: drop-shadow(1px 1px .25px #7B7A72);*/
+    filter: drop-shadow(1px 1px .25px #7B7A72);
 }
 
 @keyframes dash {
