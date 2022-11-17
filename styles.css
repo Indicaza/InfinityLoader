@@ -17,7 +17,7 @@ svg {
     fill: #195ffb;
     /*stroke: #195ffb;*/
     /*stroke-width: 2.5;*/
-    filter: drop-shadow(1px 1px .25px #7B7A72);
+    /*filter: drop-shadow(1px 1px .25px #7B7A72);*/
 }
 
 /* stroke length = 155 */
@@ -61,9 +61,9 @@ svg {
 }
 
 
-.uh {
-    filter: drop-shadow(1px 1px .25px #7B7A72);
-}
+/*.uh {*/
+/*    filter: drop-shadow(1px 1px .25px #7B7A72);*/
+/*}*/
 
 @keyframes dash {
     to {
