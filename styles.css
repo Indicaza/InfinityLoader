@@ -27,7 +27,7 @@ svg {
     stroke-dashoffset: 310;
     animation: dash 2s ease-in-out forwards;
     animation-iteration-count: infinite;
-    opacity: .75;
+    opacity: .5;
     stroke: url(#LinearGradient);
     /*stroke: #5421C9;*/
     /*stroke: green;*/
