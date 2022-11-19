@@ -7,7 +7,7 @@
   stroke-dashoffset: 151.985595703125;
   animation: dash 2s forwards;
   animation-iteration-count: infinite;
-  opacity: .2;
+  opacity: .225;
   stroke: #5421C9;
 }
 
@@ -71,8 +71,6 @@ svg {
   @include fauxGradient;
   animation-timing-function: cubic-bezier(.35,0,.35,1);
   stroke-width: 3.2;
-  filter: blur(1px);
-
 }
 
 .fauxGradient2 {
