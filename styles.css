@@ -1,94 +1,166 @@
+/* stroke length = 151.985595703125 */
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 body {
-    background: #232529;
-    margin: 0;
+  background: #1f2124;
 }
 
 svg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .background {
-    /*fill: #195ffb;*/
-    stroke: #195ffb;
-    /*stroke: url(#LinearGradient);*/
-    stroke-width: 2.9;
-    opacity: 1;
-    /*filter: drop-shadow(1px 1px .25px #7B7A72);*/
+  stroke: #195ffb;
+  stroke-width: 3;
+  opacity: 1;
 }
 
-/* stroke length = 151.985595703125 */
+.uh1 {
+  fill: whitesmoke;
+  stroke: whitesmoke;
+  opacity: 0.1;
+  stroke-width: 0.5;
+}
+
+.uh2 {
+  fill: whitesmoke;
+  stroke: whitesmoke;
+  opacity: 0.1;
+  stroke-width: 0.75;
+}
+
+.uh3 {
+  fill: whitesmoke;
+  stroke: whitesmoke;
+  stroke-width: 0.1;
+  opacity: 1;
+}
 
 .path {
-    stroke-dasharray: 75.9927978515625;
-    stroke-dashoffset: 151.985595703125;
-    animation: dash 2s forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(.3,0,.3,1);
-    opacity: .3;
-    /*stroke: url(#LinearGradient);*/
-    stroke: #5421C9;
-    stroke-width: 3;
-    /*filter: drop-shadow(1px 1px 1px #D814F3);*/
+  stroke-dasharray: 75.9927978516;
+  stroke-dashoffset: 151.9855957031;
+  animation: dash 2s forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.3, 0, 0.3, 1);
+  opacity: 0.1;
+  stroke: #5421C9;
+  stroke-width: 3;
 }
 
 .fauxGradient1 {
-    stroke-dasharray: 75.9927978515625;
-    stroke-dashoffset: 151.985595703125;
-    animation: dash 2s forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(.35,0,.35,1);
-    opacity: .2;
-    /*stroke: url(#LinearGradient);*/
-    stroke: #5421C9;
-    stroke-width: 2.9;
+  stroke-dasharray: 75.9927978516;
+  stroke-dashoffset: 151.9855957031;
+  animation: dash 2s forwards;
+  animation-iteration-count: infinite;
+  opacity: 0.25;
+  stroke: #5421C9;
+  animation-timing-function: cubic-bezier(0.35, 0, 0.35, 1);
+  stroke-width: 3.2;
 }
 
 .fauxGradient2 {
-    stroke-dasharray: 75.9927978515625;
-    stroke-dashoffset: 151.985595703125;
-    animation: dash 2s ease-in-out forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(.4,0,.4,1);
-    opacity: .2;
-    /*stroke: url(#LinearGradient);*/
-    stroke: #5421C9;
-    stroke-width: 2.8;
+  stroke-dasharray: 75.9927978516;
+  stroke-dashoffset: 151.9855957031;
+  animation: dash 2s forwards;
+  animation-iteration-count: infinite;
+  opacity: 0.25;
+  stroke: #5421C9;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+  stroke-width: 3;
 }
 
 .fauxGradient3 {
-    stroke-dasharray: 75.9927978515625;
-    stroke-dashoffset: 151.985595703125;
-    animation: dash 2s ease-in-out forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(.45,0,.45,1);
-    opacity: .2;
-    /*stroke: url(#LinearGradient);*/
-    stroke: #5421C9;
-    stroke-width: 2.25;
+  stroke-dasharray: 75.9927978516;
+  stroke-dashoffset: 151.9855957031;
+  animation: dash 2s forwards;
+  animation-iteration-count: infinite;
+  opacity: 0.25;
+  stroke: #5421C9;
+  animation-timing-function: cubic-bezier(0.45, 0, 0.45, 1);
+  stroke-width: 2.8;
 }
 
 .fauxGradient4 {
-    stroke-dasharray: 75.9927978515625;
-    stroke-dashoffset: 151.985595703125;
-    animation: dash 2s ease-in-out forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(.5,0,.5,1);
-    opacity: .1;
-    /*stroke: url(#LinearGradient);*/
-    stroke: #5421C9;
-    stroke-width: 1;
+  stroke-dasharray: 75.9927978516;
+  stroke-dashoffset: 151.9855957031;
+  animation: dash 2s forwards;
+  animation-iteration-count: infinite;
+  opacity: 0.25;
+  stroke: #5421C9;
+  animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  stroke-width: 2.6;
 }
 
-.uh {
-    /*filter: drop-shadow(1px 1px .25px #7B7A72);*/
-    fill: whitesmoke;
+.fauxGradient5 {
+  stroke-dasharray: 75.9927978516;
+  stroke-dashoffset: 151.9855957031;
+  animation: dash 2s forwards;
+  animation-iteration-count: infinite;
+  opacity: 0.25;
+  stroke: #5421C9;
+  animation-timing-function: cubic-bezier(0.55, 0, 0.55, 1);
+  stroke-width: 2.4;
 }
 
-@keyframes dash {
-    to {
-        stroke-dashoffset: 0;
-    }
+.fauxGradient6 {
+  stroke-dasharray: 75.9927978516;
+  stroke-dashoffset: 151.9855957031;
+  animation: dash 2s forwards;
+  animation-iteration-count: infinite;
+  opacity: 0.25;
+  stroke: #5421C9;
+  animation-timing-function: cubic-bezier(0.6, 0, 0.6, 1);
+  stroke-width: 2.2;
 }
+
+.fauxGradient7 {
+  stroke-dasharray: 75.9927978516;
+  stroke-dashoffset: 151.9855957031;
+  animation: dash 2s forwards;
+  animation-iteration-count: infinite;
+  opacity: 0.25;
+  stroke: #5421C9;
+  animation-timing-function: cubic-bezier(0.65, 0, 0.65, 1);
+  stroke-width: 2;
+}
+
+.fauxGradient8 {
+  stroke-dasharray: 75.9927978516;
+  stroke-dashoffset: 151.9855957031;
+  animation: dash 2s forwards;
+  animation-iteration-count: infinite;
+  opacity: 0.25;
+  stroke: #5421C9;
+  animation-timing-function: cubic-bezier(0.7, 0, 0.7, 1);
+  stroke-width: 1.8;
+}
+
+.fauxGradient9 {
+  stroke-dasharray: 75.9927978516;
+  stroke-dashoffset: 151.9855957031;
+  animation: dash 2s forwards;
+  animation-iteration-count: infinite;
+  opacity: 0.25;
+  stroke: #5421C9;
+  animation-timing-function: cubic-bezier(0.75, 0, 0.75, 1);
+  stroke-width: 1.6;
+}
+
+.fauxGradient10 {
+  stroke-dasharray: 75.9927978516;
+  stroke-dashoffset: 151.9855957031;
+  animation: dash 2s forwards;
+  animation-iteration-count: infinite;
+  opacity: 0.25;
+  stroke: #5421C9;
+  animation-timing-function: cubic-bezier(0.8, 0, 0.8, 1);
+  stroke-width: 1.4;
+}
+
+/*# sourceMappingURL=styles.css.map */

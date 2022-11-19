@@ -1,0 +1,128 @@
+//fill: whitesmoke;
+//sass --watch styles.scss styles.css
+/* stroke length = 151.985595703125 */
+
+@mixin fauxGradient {
+  stroke-dasharray: 75.9927978515625;
+  stroke-dashoffset: 151.985595703125;
+  animation: dash 2s forwards;
+  animation-iteration-count: infinite;
+  opacity: .25;
+  stroke: #5421C9;
+}
+
+@mixin uh {
+  fill: whitesmoke;
+  stroke: whitesmoke;
+  opacity: .1;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+body {
+  background: #1f2124;
+}
+
+svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.background {
+  stroke: #195ffb;
+  stroke-width: 3;
+  opacity: 1;
+}
+
+.uh1 {
+  @include uh;
+  stroke-width: .5;
+}
+
+.uh2 {
+  @include uh;
+  stroke-width: .75;
+}
+
+.uh3 {
+  @include uh;
+  stroke-width: .1;
+  opacity: 1;
+}
+
+.path {
+  stroke-dasharray: 75.9927978515625;
+  stroke-dashoffset: 151.985595703125;
+  animation: dash 2s forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(.3,0,.3,1);
+  opacity: .1;
+  stroke: #5421C9;
+  stroke-width: 3;
+}
+
+.fauxGradient1 {
+  @include fauxGradient;
+  animation-timing-function: cubic-bezier(.35,0,.35,1);
+  stroke-width: 3.2;
+}
+
+.fauxGradient2 {
+  @include fauxGradient;
+  animation-timing-function: cubic-bezier(.4,0,.4,1);
+  stroke-width: 3;
+}
+
+.fauxGradient3 {
+  @include fauxGradient;
+  animation-timing-function: cubic-bezier(.45,0,.45,1);
+  stroke-width: 2.8;
+}
+
+.fauxGradient4 {
+  @include fauxGradient;
+  animation-timing-function: cubic-bezier(.5,0,.5,1);
+  stroke-width: 2.6;
+}
+
+.fauxGradient5 {
+  @include fauxGradient;
+  animation-timing-function: cubic-bezier(.55,0,.55,1);
+  stroke-width: 2.4;
+}
+
+.fauxGradient6 {
+  @include fauxGradient;
+  animation-timing-function: cubic-bezier(.6,0,.6,1);
+  stroke-width: 2.2;
+}
+
+.fauxGradient7 {
+  @include fauxGradient;
+  animation-timing-function: cubic-bezier(.65,0,.65,1);
+  stroke-width: 2;
+}
+
+.fauxGradient8 {
+  @include fauxGradient;
+  animation-timing-function: cubic-bezier(.7,0,.7,1);
+  stroke-width: 1.8;
+}
+
+.fauxGradient9 {
+  @include fauxGradient;
+  animation-timing-function: cubic-bezier(.75,0,.75,1);
+  stroke-width: 1.6;
+}
+
+.fauxGradient10 {
+  @include fauxGradient;
+  animation-timing-function: cubic-bezier(.8,0,.8,1);
+  stroke-width: 1.4;
+}
