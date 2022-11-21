@@ -1,13 +1,13 @@
-//fill: whitesmoke;
-//sass --watch styles.scss styles.css
-/* stroke length = 151.985595703125 */
+// "UH" text = whitesmoke & body background = #1f2124
+// sass --watch styles.scss styles.css
+// stroke length = 151.985595703125
 
 @mixin fauxGradient {
   stroke-dasharray: 75.9927978515625;
   stroke-dashoffset: 151.985595703125;
   animation: dash 2s forwards;
   animation-iteration-count: infinite;
-  opacity: .225;
+  opacity: .2;
   stroke: #5421C9;
 }
 
@@ -56,16 +56,6 @@ svg {
   opacity: 1;
 }
 
-.path {
-  stroke-dasharray: 75.9927978515625;
-  stroke-dashoffset: 151.985595703125;
-  animation: dash 2s forwards;
-  animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(.3,0,.3,1);
-  opacity: .1;
-  stroke: #5421C9;
-  stroke-width: 3;
-}
 
 .fauxGradient1 {
   @include fauxGradient;
